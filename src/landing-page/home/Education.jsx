@@ -1,6 +1,6 @@
 function Education() {
     return ( 
-        <div className="container-fluid mt-5" style={{
+        <div className="container-fluid mt-5 mb-5" style={{
                 width: "1100px",
                 maxWidth: "100%",
                 margin: "0 auto",

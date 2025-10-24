@@ -18,6 +18,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -32,4 +33,52 @@ body {
 h1 {
   font-size: 1.75rem;
   line-height: 1.25;
+}
+
+footer a {
+  color: #666;
+}
+
+footer .smallPrint p {
+  font-size: 0.65rem;
+  opacity: 0.65;
+}
+
+footer {
+  background-color: #fbfbfb;
+  padding: 30px 0 5px 0;
+  border-top: 1px solid #eee;
+}
+
+.footer-graveyard-links a {
+  opacity: 0.8;
+}
+
+footer .useful-link a {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+footer .useful-link li {
+  padding-bottom: 0.75rem;
+}
+
+.navbar-menu {
+  width: 700px !important;
+  left: unset !important;
+  position: absolute;
+    /* opacity: 0; */
+  transition: all .15s ease;
+  transform: rotateX(-15deg);
+  transform-origin: 0 0;
+  right: 200px !important;
+  top: 67px !important;
+  z-index: 100;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, .1);
+}
+
+.navbtn:focus {
+  border: none;
 }
