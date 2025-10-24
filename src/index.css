@@ -18,51 +18,67 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  color: #424242;
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 1.75rem;
+  line-height: 1.25;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+footer a {
+  color: #666;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+footer .smallPrint p {
+  font-size: 0.65rem;
+  opacity: 0.65;
+}
+
+footer {
+  background-color: #fbfbfb;
+  padding: 30px 0 5px 0;
+  border-top: 1px solid #eee;
+}
+
+.footer-graveyard-links a {
+  opacity: 0.8;
+}
+
+footer .useful-link a {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+footer .useful-link li {
+  padding-bottom: 0.75rem;
+}
+
+.navbar-menu {
+  width: 700px !important;
+  left: unset !important;
+  position: absolute;
+    /* opacity: 0; */
+  transition: all .15s ease;
+  transform: rotateX(-15deg);
+  transform-origin: 0 0;
+  right: 200px !important;
+  top: 67px !important;
+  z-index: 100;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, .1);
+}
+
+.navbtn:focus {
+  border: none;
 }
